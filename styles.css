@@ -1,0 +1,150 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(250, 241, 139);
+}
+
+header {
+    background-color: #ffe8b3;
+    padding: 20px;
+}
+
+h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+#info-personal,
+#habilidades,
+#contacto {
+    background-color: rgb(254, 255, 255);
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #cccccc;
+    border-radius: 30px;
+}
+
+#info-personal h2,
+#habilidades h2,
+#contacto h2 {
+    font-size: 24px;
+}
+
+#habilidades ul {
+    list-style-type: square;
+}
+
+form {
+    text-align: center;
+}
+
+input {
+    outline: none;
+}
+
+input:focus {
+    border-color: rgb(0, 0, 0);
+    border: 1px solid rgb(0, 0, 0)
+}
+
+textarea {
+    outline: none;
+}
+
+textarea:focus {
+    border-color: black;
+    border: 1px solid rgb(0, 0, 0)
+}
+
+footer {
+    background-color: #f1f1f1;
+    color: #333;
+    text-align: center;
+    padding: 10px;
+    position: relative;
+    bottom: 0%;
+    width: 100%;
+}
+
+#boton {
+    color: white;
+    background-color: black;
+    border-radius: 50px;
+    width: 4%;
+    margin-bottom: 20px;
+    margin-left: 40%;
+    height: 20px;
+}
+
+#boton:hover {
+    color: rgb(0, 0, 0);
+    background-color: rgb(249, 249, 178);
+    cursor: pointer;
+    transition-duration: 0.1s;
+}
+
+
+@media only screen and (max-width: 600px) {
+
+
+    header,
+    #info-personal,
+    #habilidades,
+    #contacto {
+        padding: 10px;
+    }
+
+
+    h1,
+    h2 {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+
+
+    header,
+    #info-personal,
+    #habilidades,
+    #contacto {
+        padding: 20px;
+    }
+
+
+    h1,
+    h2 {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width: 1025px) {
+
+    header,
+    #info-personal,
+    #habilidades,
+    #contacto {
+        padding: 30px;
+    }
+
+    h1,
+    h2 {
+        font-size: 28px;
+    }
+}

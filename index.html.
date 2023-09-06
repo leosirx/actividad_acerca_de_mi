@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Leonardo Cortés web</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <h1>[Bienvenido a mi Web]</h1>
+        <nav>
+            <ul>
+                <li><a href="#info-personal">> Información personal</a></li>
+                <li><a href="#habilidades">> Habilidades</a></li>
+                <li><a href="#contacto">> Contacto</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    <section>
+        <div id="info-personal">
+            <h2>Información Personal</h2>
+            <p>Nombre: Leonardo Cortés</p>
+            <p>Edad: 29 años</p>
+            <p>Profesión: Desarrollador Frontend</p>
+        </div>
+    </section>
+
+    <section>
+        <div id="habilidades">
+            <h2>Habilidades</h2>
+            <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+            </ul>
+        </div>
+    </section>
+
+    <section>
+        <div id="contacto">
+            <h2>Contáctame:</h2>
+            <p>e-mail: <a href="email">leosirx@gmail.com</a></p>
+            <p>tel: <a href="telefono">+543513180123</a></p>
+            <p><a href="https://www.linkedin.com/in/leonardo-cort%C3%A9s-b5ab8b236/">Linkedin</a></p>
+        </div>
+    </section>
+
+    <form action="/submit">
+        <h2>Envía tu consulta</h2>
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre">
+        <br>
+        <br>
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apelldio" name="apellido">
+        <br>
+        <br>
+        <label for="asunto">Asunto:</label>
+        <input type="text" id="asunto" name="asunto">
+        <br>
+        <br>
+        <label for="mail">e-mail:</label>
+        <input type="text" id="mail" name="mail">
+        <br>
+        <br>
+        <textarea name="texto" id="bola" cols="100" rows="10" placeholder="Escribe tu consulta..."></textarea>
+        <br>
+        <br>
+        <input type="submit" id="boton" value="Enviar">
+
+    </form>
+</body>
+<footer>
+    &copy; 2023, Todos los derechos reservados.
+</footer>
+
+</html>
